@@ -62,8 +62,8 @@ col1.info("Please take the photo under good lighting conditions for better resul
 if uploaded_image is None:
     uploaded_image=col2.file_uploader(label="Upload Any Image with faces",type=['png','jpg','jpeg','webp'],accept_multiple_files=False)
     upload_flag=1
-    with col2.expander("Sample image for testing"):
-        st.image('Images/faces.jpeg')
+    #with col2.expander("Sample image for testing"):
+    #    st.image('Images/faces.jpeg')
 
         
 if uploaded_image is not None:
