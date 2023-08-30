@@ -40,7 +40,7 @@ faces_in_each_row=4
 st.set_page_config(layout="wide",initial_sidebar_state='expanded')
 st.markdown("<h1 style='text-align:center;background-color:orange'> Face Detector with Gender Recognition and Emotion Classificaton </h1>",unsafe_allow_html=True)
 
-sidebar
+# sidebar
 st.sidebar.markdown("<h1 style='text-align:center'><u><b> Developer </b></u></h1>",unsafe_allow_html=True)
 with st.sidebar:
     st.image("Images/me.jpg")
