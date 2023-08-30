@@ -41,20 +41,20 @@ st.set_page_config(layout="wide",initial_sidebar_state='expanded')
 st.markdown("<h1 style='text-align:center;background-color:orange'> Face Detector with Gender Recognition and Emotion Classificaton </h1>",unsafe_allow_html=True)
 
 # sidebar
-st.sidebar.markdown("<h1 style='text-align:center'><u><b> Developer </b></u></h1>",unsafe_allow_html=True)
-with st.sidebar:
-    st.image("Images/j.jpg")
-    with st.expander("About Me"):
-        st.write("""
-            Hello, I'm a Data Scientist with 2 years of experience in data analysis, machine learning, and deep learning. I have a strong background in Computer Science which allows me to apply a wide range of techniques to solve complex business problems.
+# st.sidebar.markdown("<h1 style='text-align:center'><u><b> Developer </b></u></h1>",unsafe_allow_html=True)
+# with st.sidebar:
+#     st.image("Images/j.jpg")
+#     with st.expander("About Me"):
+#         st.write("""
+#             Hello, I'm a Data Scientist with 2 years of experience in data analysis, machine learning, and deep learning. I have a strong background in Computer Science which allows me to apply a wide range of techniques to solve complex business problems.
 
-            I have a passion for understanding and solving complex data problems, and I pride myself on my ability to communicate technical concepts to non-technical stakeholders. I believe that the key to success in data science is to approach problems with curiosity, rigor, and creativity, and to continuously learn and adapt to new technologies and techniques.
-        """)
-    st.subheader("Social Links")
-    col1,col2,col3=st.columns(3)
-    col1.markdown("<a href='https://www.linkedin.com/in/nagasai-biginepalli-64648a146/'>Linkedin</a>",unsafe_allow_html=True)
-    col2.markdown("<a href='https://github.com/Nagasai524'>Github</a>",unsafe_allow_html=True)
-    col3.markdown("<a href='mailto:www.biginepallinagasai109@gmail.com'>Gmail</a>",unsafe_allow_html=True)
+#             I have a passion for understanding and solving complex data problems, and I pride myself on my ability to communicate technical concepts to non-technical stakeholders. I believe that the key to success in data science is to approach problems with curiosity, rigor, and creativity, and to continuously learn and adapt to new technologies and techniques.
+#         """)
+#     st.subheader("Social Links")
+#     col1,col2,col3=st.columns(3)
+#     col1.markdown("<a href='https://www.linkedin.com/in/nagasai-biginepalli-64648a146/'>Linkedin</a>",unsafe_allow_html=True)
+#     col2.markdown("<a href='https://github.com/Nagasai524'>Github</a>",unsafe_allow_html=True)
+#     col3.markdown("<a href='mailto:www.biginepallinagasai109@gmail.com'>Gmail</a>",unsafe_allow_html=True)
 
 col1,col2=st.columns(2)
 uploaded_image=col1.camera_input(label="Take a Photo")
